@@ -1,0 +1,155 @@
+.body {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    max-width: 1600px;
+    background: #817C7C;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+    @media screen and (max-width: 480px) {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
+}
+
+.footer {
+    background: #84A178;
+}
+ /*Buttons*/
+
+.footer_btn-list {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+    @media screen and (max-width: 479px) {
+        display: block;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 480px) {
+        max-width: 408px;
+        height: 42px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.footer_btn-locations {
+    padding: 12px 40px;
+    background-color: #F8D24E;
+    border-radius: 10px;
+    border: none;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: #0A8817;
+    }
+
+    &:focus {
+        color: #FCFCFC;
+    }
+
+
+}
+
+.footer_btn-franchise {
+    padding: 10px 55px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid #F8D24E;
+    border-radius: 10px;
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border: 2px solid #0A8817;
+    }
+
+    &:focus {
+        color: #FCFCFC;
+    }
+
+    @media screen and (max-width: 480px) {
+        margin-top: 16px;
+    }
+
+    @media screen and (min-width: 480px) {
+        margin-left: 16px;
+    }
+}
+
+.icon-biger {
+    margin-left: 4px;
+    width: 12px;
+    height: 12px;
+    fill: #000;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus {
+        fill: #FCFCFC;
+    }
+}
+
+
+.footer_titles-list {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-top: 60px;
+    list-style: none;
+    text-transform: uppercase;
+    color: #FCFCFC;
+}
+
+.footer_homemade-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(22/18);
+
+    @media screen and (max-width: 1199px) {
+            max-width: 232px;
+        }
+}
+.footer_passion-title {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: calc(41/34);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 1199px) {
+            max-width: 200px;
+        }
+}
