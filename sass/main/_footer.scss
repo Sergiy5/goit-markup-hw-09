@@ -1,39 +1,3 @@
-.body {
-    position: relative;
-    margin: 0 auto;
-    height: auto;
-    max-width: 1600px;
-    font-family: 'Montserrat';
-    background: #817C7C;
-}
-
-.list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-
-
-    @media screen and (min-width: 480px) {
-        max-width: 480px;
-    }
-
-    @media screen and (min-width: 768px) {
-        padding-left: 30px;
-        padding-right: 30px;
-        max-width: 768px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        max-width: 1200px;
-    }
-}
 
 .footer {
     padding-top: 935px;
@@ -42,7 +6,6 @@
     @media screen and (min-width: 768px) {
         padding-top: 278px;
     }
-
     @media screen and (min-width: 1200px) {
         padding-top: 474px;
     }
@@ -58,19 +21,15 @@
     margin-right: auto;
     color: #131313;
 
-
     @media screen and (max-width: 767px) {
         max-width: 200px;
         display: block;
         text-align: center;
     }
-
     @media screen and (min-width: 768px) {
         height: 42px;
     }
-
 }
-
 
 .footer-location__button {
     padding: 12px 38px;
@@ -107,7 +66,6 @@
     @media screen and (max-width: 767px) {
         margin-top: 16px;
     }
-
     @media screen and (min-width: 768px) {
         margin-left: 16px;
     }
@@ -140,7 +98,6 @@
     }
 }
 
-
 .footer_titles-list {
     display: inline-block;
     margin-top: 60px;
@@ -150,7 +107,6 @@
     @media screen and (min-width: 768px) {
         margin-top: 40px;
     }
-
     @media screen and (min-width: 1200px) {
         margin-top: 120px;
     }
@@ -164,7 +120,6 @@
     @media screen and (max-width: 767px) {
         max-width: 232px;
     }
-
     @media screen and (min-width: 768px) {
         font-weight: 700;
         font-size: 26px;
@@ -172,7 +127,6 @@
         letter-spacing: 0.04em;
         width: 353px;
     }
-
     @media screen and (min-width: 1200px) {
         width: 507px;
         font-weight: 400;
@@ -198,8 +152,6 @@
         letter-spacing: 0.06em;
         width: 353px;
     }
-
-
     @media screen and (min-width: 1200px) {
         width: 507px;
         font-size: 58px;
@@ -222,11 +174,9 @@
         width: 162px;
         height: 35px;
     }
-
     @media screen and (min-width: 1200px) {
         margin-top: 138px;
     }
-
 }
 
 .footer_icon-item {
@@ -285,7 +235,6 @@
         height: 27px;
         font-size: 14px;
     }
-
     @media screen and (min-width: 1200px) {
         margin-top: 40px;
         font-size: 16px;
