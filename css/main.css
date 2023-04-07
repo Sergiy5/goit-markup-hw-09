@@ -4,7 +4,6 @@
   height: auto;
   max-width: 1600px;
   font-family: "Montserrat";
-  background: #84A178;
 }
 
 .list {
@@ -13,26 +12,26 @@
   list-style: none;
 }
 
-.container {
+.footer__container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
 @media screen and (min-width: 480px) {
-  .container {
+  .footer__container {
     max-width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
-  .container {
+  .footer__container {
     padding-left: 30px;
     padding-right: 30px;
     max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .container {
+  .footer__container {
     max-width: 1200px;
   }
 }
@@ -139,7 +138,7 @@ button {
 }
 
 .footer-location__button {
-  padding: 12px 38px;
+  padding: 12px 39px;
   -webkit-transition-property: background-color;
   transition-property: background-color;
   -webkit-transition-duration: 250ms;
@@ -155,7 +154,8 @@ button {
 }
 
 .footer-franchise__button {
-  padding: 10px 54px;
+  padding: 11px 53px;
+  border: 2px solid #F8D24E;
   -webkit-transition-property: border;
   transition-property: border;
   -webkit-transition-duration: 250ms;
